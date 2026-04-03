@@ -63,7 +63,7 @@ public class ReActService(
     {
         var conversation = new OllamaConversation
         {
-            Model = "qwen2.5:3b ",
+            Model = "qwen2.5:3b",
             Tools = _tools.ToArray(),
             Stream = false,
             Messages = 
